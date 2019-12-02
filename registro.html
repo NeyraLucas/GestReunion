@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+
+    <!-- Navbar --> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <a class="navbar-brand" href="#">UPIICSA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cerrar Sesión</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+
+     <!-- HEADER -->
+     <header class="main.header">
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-sm-3">
+                            <img src="img/poli.png" alt="" class="img-fluid" style="width: 50%;">
+                    </div>
+                    <div class="col-sm-6">
+                            <h3 class="text-center text-danger">GESTIÓN DE REUNIONES DE ACADEMIA</h1>
+                    </div>
+                    <div class="col-sm-3">
+                            <img src="img/upiicsa.png" alt="" class="img-fluid" style="width: 55%;">
+                    </div>
+                </div>
+            </div>
+          </header>      
+    
+
+          <div class="col-md container text-center">
+                <h4>Crear cuenta</h4>
+          </div>      
+          
+          <section>
+                <div class="container py-5  text-center">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p>Nombre(s)</p>
+                        </div>
+                        <div class="col-md-3">
+                                <input type="text" class="form-control form-control-lg" placeholder="">
+                        </div>
+                        <div class="col-md-3">
+                                <p>Correo Institucional</p>
+                            </div>
+                            <div class="col-md-3">
+                                    <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+    
+                    </div>
+
+                    <div class="row py-5">
+                            <div class="col-md-3">
+                                <p>Apellidos</p>
+                            </div>
+                            <div class="col-md-3">
+                                    <input type="text" class="form-control form-control-lg" placeholder="">
+                            </div>
+                            <div class="col-md-3">
+                                    <p>Contraseña</p>
+                                </div>
+                                <div class="col-md-3">
+                                        <input type="password" class="form-control form-control-lg" placeholder="">
+                                </div>
+        
+                        </div>
+                        
+                        <div class="row py-25">
+                                <div class="col-md-3">
+                                    <p>Matricula</p>
+                                </div>
+                                <div class="col-md-3">
+                                        <input type="text" class="form-control form-control-lg" placeholder="">
+                                </div>
+                                <div class="col-md-3">
+                                        <p>Confirmar contraseña</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                            <input type="password" class="form-control form-control-lg" placeholder="">
+                                    </div>
+            
+                            </div>
+
+                        <div class="row py-5">
+                            <div class="col-md-3">
+                                <p>Academia perteneciente</p>
+                            </div>
+                            <div class="col-md-3">
+                                    <div class="btn-group " role="group">
+                                            <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Seleccionar
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                              <a class="dropdown-item" href="#">Academia de ciencias básicas</a>
+                                              <a class="dropdown-item" href="#">Academia de cómputo</a>
+                                              <a class="dropdown-item" href="#">Academia de ingeniería industrilal</a>
+                                              <a class="dropdown-item" href="#">Academia de informática</a>
+                                              <a class="dropdown-item" href="#">Academia de investigación de operaciones</a>
+                                              <a class="dropdown-item" href="#">Academia de producción</a>
+                                              <a class="dropdown-item" href="#">Academia de sistemas de transporte</a>
+                                            </div>
+                                          </div>
+                            </div>
+
+                        </div>
+                        <!-- Check -->
+                        
+                        <div class="row py-25">
+                            <div class="col-md-3">
+                                    <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                            <label class="form-check-label" for="inlineRadio1">Jefe/Presidente de academia</label>
+                                    </div>
+                            </div>
+                            <div class="col-md-3">
+                                    <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                            <label class="form-check-label" for="inlineRadio2">Profesor</label>
+                                    </div>
+                            </div>
+                            <!--Registrarse -->
+                            <div class="col-md-6">
+                                    <button class="btn btn-danger">
+                                            <a  href="index.html" class="text-white">Registrarse</a>
+                                    </button>
+                            </div>
+                        </div>
+                       
+                              
+                        
+                </div>
+            </section>
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
